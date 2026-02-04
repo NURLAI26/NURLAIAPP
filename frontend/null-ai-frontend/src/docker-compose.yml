@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:80"
+
+  frontend:
+    build: ./frontend/null-ai-frontend
+    ports:
+      - "3000:80"
+
+  ai:
+    build: ./ai-service
+    ports:
+      - "8000:8000"
+
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: nullai
+      POSTGRES_PASSWORD: nullai
+      POSTGRES_DB: nullai_db
+    ports:
+      - "5432:5432"

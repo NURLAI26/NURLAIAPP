@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sSNYAJc7PUo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\FUJITSU\\Desktop\\null-ai\\backend\\NullAI.Api\\NullAI.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FUJITSU\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
+    "C:\\Users\\FUJITSU\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
